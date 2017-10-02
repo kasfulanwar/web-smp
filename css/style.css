@@ -1,0 +1,162 @@
+.datagrid table { border-collapse: collapse; text-align: left; width: 100%; } .datagrid {font: normal 12px/150% Arial, Helvetica, sans-serif; background: #fff; overflow: hidden; border: 1px solid #36752D; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }.datagrid table td, .datagrid table th { padding: 3px 10px; }.datagrid table thead th {background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #36752D), color-stop(1, #275420) );background:-moz-linear-gradient( center top, #36752D 5%, #275420 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#36752D', endColorstr='#275420');background-color:#36752D; color:#FFFFFF; font-size: 15px; font-weight: bold; border-left: 1px solid #36752D; } .datagrid table thead th:first-child { border: none; }.datagrid table tbody td { color: #275420; border-left: 1px solid #C6FFC2;font-size: 12px;font-weight: normal; }.datagrid table tbody .alt td { background: #DFFFDE; color: #275420; }.datagrid table tbody td:first-child { border-left: none; }.datagrid table tbody tr:last-child td { border-bottom: none; }
+
+body{
+	background-color: #f4f4f4;
+}
+a:link{
+	text-decoration: none;
+}
+.p_bg_color{
+	background-color: #00bbff;
+}
+.p_text_color{
+	color: #00bbff;
+}
+
+@font-face {
+	font-family: 'comt';
+	src: url('COM4F_RG.TTF') format('truetype');
+	font-weight: normal;
+	font-style: normal;	
+}
+
+h1, h2, h3 ,h4, h5, h6{
+	font-family: "COM4t Fine Regular",comt , "Times New Roman", Verdana, sans-serif;
+}
+/*##########################################################*/
+
+.black-wrapper{
+	background: #072606;
+	width: 100%;
+}
+.nivo-controlNav{
+	display: none;
+}
+header,nav{
+	padding-top: 40px;
+	padding-bottom: 30px;
+	
+}
+header h1{
+	color: white;
+	padding-right: 10px;
+}
+
+/*##########################################################*/
+
+nav{
+	
+}
+nav ul{
+	list-style-type: none;
+}
+nav ul li{
+	display: inline;
+	margin-left: 20px;
+}
+nav ul li a{
+	color: #ededed ;
+	font-family: "COM4t Fine Regular",comt , "Times New Roman", Verdana, sans-serif;
+}
+nav ul li.active a{
+	color: #00bbff;
+}
+nav ul li a:hover{color: #00bbff;text-decoration: underline;}
+
+/*##########################################################*/
+#slider_wrapper {
+	height: 300px;
+	width: 100%;
+	background: #072606;
+	margin-bottom: 200px;
+	
+}
+#slider{
+	border:15px solid #ececec;
+	outline: 1px solid #e3e3e3;
+}
+/*##########################################################*/
+#icons_wrapper{
+	padding: 20px 0 25px 0;
+	/*background:#39bd32;*/
+	background:#255322;
+	/*
+	background:-moz-linear-gradient(#333333,#484848);
+	background:-webkit-linear-gradient(#333333,#484848);
+	background:-o-linear-gradient(#333333,#484848);
+	background:-ms-linear-gradient(#333333,#484848);
+	background:linear-gradient(#333333,#484848);*/
+	margin-bottom:90px;
+	color:#ededed;	
+}
+#icons_wrapper img{
+	padding-top: 10px;
+}
+
+/*##########################################################*/
+/*the FOUR paragraphs css styles*/
+#four_parags{
+	margin-bottom: 70px;
+}
+.one_parag {
+	text-align: center;
+}
+
+.one_parag h2 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #ededed;
+	margin: 20px 0;
+}
+
+.one_parag p{
+	font-size: 14px;
+	color: #fcf90a;
+	line-height:21px;
+}
+
+.one_parag img{height:60px;}
+.one_parag:hover{
+	background-color: #356716;
+	box-shadow:inset 0 0 15px #000;
+}
+
+/*#########################################################*/
+.one_image a {
+	font-size: 14px;
+	padding:10PX 0;
+	color: #00bbff;
+}
+
+#four_images h2{
+	font-size: 18px;
+	font-weight: bold;
+	color: #4c4c4c; 
+	background: url(../images/b_line.jpg) repeat-x left center;
+	margin-bottom: 40px;
+}
+#four_images h2 span{
+	background-color: #f4f4f4;
+	padding-right:20px;
+}
+.one_image p {
+	font-size: 14px;
+	color: #b5b5b5;
+	line-height:21px;
+	margin: 30px 0;
+}
+
+
+/*##########################################################*/
+
+
+/*############################################################*/
+footer{
+	margin-top: 70px;
+	background-color: #FFFFFF;
+	padding: 30PX 0;
+	border-top: 1px solid #ececec;
+	color: #4c4c4c;
+}
+
+/*##########################################################*/
